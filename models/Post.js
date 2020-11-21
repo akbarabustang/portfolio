@@ -8,7 +8,7 @@
   developer taking over the project.
 */
 
-
+//buat tutorial ttg ini
 // https://github.com/scottwrobinson/camo
 const Document = require('vertex-camo').Document
 const props = {

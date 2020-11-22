@@ -7,6 +7,15 @@
 </head>
 
     <body>
+        <img src={{{image_profile}}} width="150" ><br>
         {{ greeting }}
+        <br>
+        <h3>Programming Languages</h3>
+        <ol>
+            {{#languages}}
+            <li>{{name}}, {{year}}</li>
+            {{/languages}}
+        </ol>
+        {{>form}}
     </body>
 </html>
